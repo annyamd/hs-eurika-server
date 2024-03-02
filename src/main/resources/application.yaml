@@ -1,6 +1,15 @@
 server:
     port: 8761
+
+spring:
+    application:
+        name: eureka-server
+
 eureka:
     client:
         registerWithEureka: false
         fetchRegistry: false
+
+logging:
+    pattern:
+        dateformat: HH-mm-s
